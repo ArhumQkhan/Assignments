@@ -1,0 +1,161 @@
+<!--M. Arhum Qayyum Khan (F2021266024)
+    Assignment 1  -  Web Technology V1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online CV</title>
+    <style>
+        body{
+            background-color: rgb(255, 240, 252);
+        }
+        .container {
+            font-family: Arial, sans-serif;
+            max-width: 1500px;
+            height: 2000px;
+            background-color: white;
+            margin: 0px auto;
+        }
+        .header {
+            display: flex; /*this automatically aligns the img and the text block in a row*/
+            margin: 40px 50px;
+
+        }
+        .header img {
+            margin-right: 20px;
+        }
+        .Bio {
+            margin-left: 20px;
+            align-self: baseline;
+        }
+        .info {
+            display: flex;
+            margin: 20px auto;
+        }
+        .social-icons ul{
+            display: flex;
+            position: absolute
+        }
+        .social-icons ul li {
+            list-style: none;
+            margin: 0px 20px;
+            display: inline;
+            
+        }
+        .social-icons ul li .fab {
+            font-size: 25px;
+        }
+        /*to add box around the icons*/
+        .social-icons ul li a {
+            display: inline-block;
+            margin: 0px 5px;
+            border: 1px solid rgba(198, 198, 198, 0.634);
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            line-height: 45px;
+            transition: all 0.3s ease;
+            color: #000000;
+            border-radius: 10%;
+        }
+        .social-icons ul li a:hover {
+            background-color: black;
+            color: white;
+        }
+        .h2 {
+            margin-top: 150px;   
+            margin-left: 245px;
+        }
+        .header2 {
+            display: flex;
+            margin-top: 100px;
+        }
+        .font2 {
+            color: rgb(30, 30, 30);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 19.920px;
+            margin-bottom: 10px;
+            
+        }
+        .font1 {
+            color: rgb(226, 135, 95);
+            margin-top: 0px;
+        }
+        .bold {
+            font: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img alt="Arhum Qayyum Khan" src="myimg1.jpeg" width="300px" style="margin-top: 35px;">
+            <div class="Bio">
+                <h1 class="font2">M.ARHUM QAYYUM KHAN</h1>
+                <h2 class="font1">Web Designer</h2>
+                <p>              
+                    A budding web developer with a solid foundation in front-end development, I am currently pursuing BS Computer Science at University of Management and Technologies. With a keen eye for design and a systematic approach to coding, I craft web solutions that blend form with functionality. My academic journey is supplemented by hands-on experience through freelance projects and university collaborations, which have honed my skills in HTML, CSS, and JavaScript.
+                </p> 
+                <div class="info">
+                    <div style="margin-left: 0px; margin-right: 200px;">
+                        <h4 style="margin-bottom: 10px;">DECEMBER 17, 2000</h4>
+                        <h5 style="margin-top: 0; color: rgb(121, 120, 120);">Birth</h5></div>
+                    <div style="margin-left: 0px; margin-right: 200px;">
+                        <h4 style="margin-bottom: 10px;">PAKISTAN</h4>
+                        <h5 style="margin-top: 0; color: rgb(121, 120, 120);">Nationality</h5></div>
+                    <div style="margin-left: 0px; margin-right: 200px;">
+                        <h4 style="margin-bottom: 10px;">URDU, ENGLISH</h4>
+                        <h5 style="margin-top: 0; color: rgb(121, 120, 120);">Language</h5></div>
+                </div>  
+                <div class="social-icons">
+                    <ul style="padding-left: 0px;">
+                        <li><a href="https://www.facebook.com/arhum.khan.9277583" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/arhum-khan-459507227/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/arhum.qayyum/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://github.com/ArhumQkhan" target="_blank"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                    
+                </div>   
+            </div>
+        </div>
+        <div class="header2">
+            <h4 style="margin-left: 255px;">MY ACTIVITY</h4>
+            <div><h4 style="margin-bottom: 10px; margin-left: 35px; margin-right: 200px;">100%</h4>
+                <h6 style="margin-top: 0; margin-left: 35px; color: rgb(121, 120, 120);">JOB SUCCESS</h6></div>
+            <div><h4 style="margin-bottom: 10px; margin-left: 35px; margin-right: 200px;">96%</h4>
+                <h6 style="margin-top: 0; margin-left: 35px; color: rgb(121, 120, 120);">ON BUDGET</h6></div>
+            <div><h4 style="margin-bottom: 10px; margin-left: 35px; margin-right: 200px;">94%</h4>
+                <h6 style="margin-top: 0; margin-left: 35px; color: rgb(121, 120, 120);">ON TIME</h6></div>
+            <div><h4 style="margin-bottom: 10px; margin-left: 35px; margin-right: 200px;">89%</h4>
+                <h6 style="margin-top: 0; margin-left: 35px; color: rgb(121, 120, 120);">REPEATE HIRE RATE</h6></div>
+        </div>
+        <div class="header2">
+            <h4 style="margin-left: 230px;">WORK HISTORY</h4>
+            <div><h4 style="margin-bottom: 10px; margin-left: 35px; margin-right: 200px;">212</h4>
+                <h6 style="margin-top: 0; margin-left: 35px; color: rgb(121, 120, 120);">HOURS WORKED</h6></div>
+            <div><h4 style="margin-bottom: 10px; margin-left: 35px; margin-right: 200px;">13</h4>
+                <h6 style="margin-top: 0; margin-left: 35px; color: rgb(121, 120, 120);">WORK DONE</h6></div>
+            <div><h4 style="margin-bottom: 10px; margin-left: 35px; margin-right: 200px;">30</h4>
+                <h6 style="margin-top: 0; margin-left: 35px; color: rgb(121, 120, 120);">HOURS AVAILABLE</h6></div>
+            <div><h4 style="margin-bottom: 10px; margin-left: 35px; margin-right: 200px;">12</h4>
+                <h6 style="margin-top: 0; margin-left: 35px; color: rgb(121, 120, 120);">HOURS RESPONSE TIME</h6></div>
+        </div>
+        <div class="header2">
+            <h4 style="margin-left: 230px;">MY SPECIALITIES</h4>
+            <div><h4 style="margin-bottom: 10px; margin-left: 35px; margin-right: 200px;">LANGUAGES</h4>
+                <h6 style="margin-top: 0; margin-left: 35px; color: rgb(121, 120, 120);">HTML5, CSS3, JavaScript</h6></div>
+            <div><h4 style="margin-bottom: 10px; margin-left: 35px; margin-right: 200px;">TOOLS</h4>
+                <h6 style="margin-top: 0; margin-left: 35px; color: rgb(121, 120, 120);">Adobe Creative Suite, Figma, Visual Studio Code, Git</h6></div>
+            <div><h4 style="margin-bottom: 10px; margin-left: 35px; margin-right: 200px;">SYSTEMS</h4>
+                <h6 style="margin-top: 0; margin-left: 35px; color: rgb(121, 120, 120);">Responsive and Adaptive Design, Cross-Browser Compatibility</h6></div>
+            
+        </div>
+        <script src="https://kit.fontawesome.com/bbac0dc04b.js" crossorigin="anonymous"></script>
+    </div>
+    
+</body>
+</html>
